@@ -1,0 +1,135 @@
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.top-navigation .logo {
+    height: 70px;
+}
+.top-navigation .links {
+    float: right;
+    margin-top: 25px;
+    font-family: 'Play', sans-serif; 
+    font-size: 16px; 
+    color: #27211D; 
+    letter-spacing: 0.03em;
+    margin-left: 25px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links a:hover {
+    cursor: pointer;
+    color: #8E4E33;
+    font-weight: 900;
+}
+.top-navigation .links a:visited {
+    float: right;
+    margin-top: 25px;
+    font-family: 'Play', sans-serif; 
+    font-size: 16px; 
+    color: #27211D; 
+    letter-spacing: 0.03em;
+    margin-left: 25px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+}
+/* Top Photo Portion */
+.introduction {
+    background-image: url('images/background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    width: 100%;
+    z-index: 9999%
+}
+.jumbotron {
+  margin-bottom: 0px;
+  height: 45.938rem;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background:transparent;
+}
+.introduction > .content {
+    text-align: center;
+    color: white;
+    font-family: 'Play', sans-serif;
+    margin:0 auto; 
+    width: 970px;
+    padding-top: 100px;
+}
+
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 10.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+.introduction i {
+    margin-top: 1.25rem;
+    margin-right: 2.5rem;
+}
+.aboutme {
+    background-color: #8E4E33;
+    margin-top: 0;
+    padding-top: 3rem;
+}
+.aboutme img {
+    height: 450px;
+    width: 400px;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+.projects {
+    background-color: #8C7468;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+.projects .content h2 {
+    font-family: 'Play', sans-serif; 
+    font-size: 3.125rem; 
+    text-shadow: 2px 2px #BEA494;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding: 1.5rem;
+}
+.projects img {
+    margin-left: 10rem;
+}
+.contact {
+    height: 250px
+}
+.contact > .content{
+    text-align: center;
+    padding-top: 5rem;
+}
+.contact .content h1{
+    padding-bottom: 5em;
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
+.icons li {
+    display: inline;
+    padding-left: 5rem;
+}
