@@ -1,74 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Chuck Wongus Portfolio</title>
-        <link href="css/bootstrap.css" rel="stylesheet">
-            <link rel="stylesheet" type="text/css" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    </head>
-<body>
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-      <a class="navbar-brand" href="#top">Chuck Wongus</a>
-    <div class="navbar-header navbar-right">
-        <ul class="nav navbar-nav">
-            <li><a href="#story">This is Chuck</a></li>
-            <li><a href="#projects">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-        </div>
-      </div>
-    </nav>
-    <a name="top">
-    <section class="introduction">
-        <div class="content">
-            <h1>Chuck Wongus</h1>
-            <h3>Web Developer | Super Nerd | Social Media Junkie</h3>
-            <i class="fa fa-code fa-3x"></i>
-            <i class="fa fa-gamepad fa-3x"></i>
-            <i class="fa fa-users fa-3x"></i>
-        </div>
-    </section>
-    </a>
-    <section class="aboutme">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-            My name is Chuck Wongus. I am a progressive political organizer. I have been working in social justice for almost two years now, and I absolutely love giving back to the world.
-<p><br>
-    Living in a world were people are accepted for who they are is my dream in life. I have been working ardently to accept people and be open minded in life.</p><br>
-        <p>I grew up in Chester, VA. Chester is a small suburb, or as the residents like to call it "a village", outside of Richmond, VA.</p>    
-            </div>
-            <div class="col-sm-6">
-            <img src="images/1621942_10204754550290911_1611490814335816803_n.jpg" class="img-responsive">
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="projects">
-        <div class="container-fluid">
-        <div class="row"><h2>Projects</h2></div>
-        <div class="row">
-        <div class="col-sm-3"><a href="http://yesimchuck.github.io/KarmaClone/"><img src="images/karma.png" alt="Clone of Karma Landing Page" class="img-responsive"></a></div>
-        <div class="col-sm-3 col-sm-offset-1"><a href="http://yesimchuck.github.io/aboutme/"><img src="images/aboutme.png" alt="About Me Page"class="img-responsive"></a></div>
-        <div class="col-sm-3 col-sm-offset-1"><img src="images/Chuck%20Wongus%20NYT%20Hack.png" class="img-responsive"></div>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content=
+	"width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+	name="viewport">
 
-        </div>
-        </div>
-    </section>
-    <a name="contact">
-    <footer class="contact">
-        <div class="content">
-            <h1>I can easily be reached at the following social media sites!</h1>
-            <ul class="icons">
-                <li><a href="https://github.com/YesImChuck"><i class="fa fa-github fa-2x"></i></a></li>
-                <li><a href="http://www.linkedin.com/in/chuckwongus/en"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                <li><a href="https://www.pinterest.com/charleswongus/"><i class="fa fa-pinterest fa-2x"></i></a></li>
-                <li><a href="https://www.twitter.com/chuckwongus"><i class="fa fa-twitter fa-2x"></i></a></li>
-                <li><a href="http://lifes-next-chapter.tumblr.com/"><i class="fa fa-tumblr fa-2x"></i></a></li>
-                <li><a href="mailto:charles.t.wongus@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-            </ul>
-        </div>
-    </footer>
-    </a>
+	<title>Chuck Wongus Portfolio</title><!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=
+	"stylesheet">
+	<link href="css/materialize.css" media="screen,projection" rel="stylesheet"
+	type="text/css">
+	<link href="css/style.css" media="screen,projection" rel="stylesheet" type=
+	"text/css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+    <nav class="light-blue accent-3" role="navigation">
+		<div class="nav-wrapper container">
+			<a class="brand-logo" href="#">Chuck Wongus</a>
+
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a href="#about">About</a>
+				</li>
+
+
+				<li>
+					<a href="#portfolio">Portfolio</a>
+				</li>
+
+
+				<li>
+					<a href="#services">Services</a>
+				</li>
+
+
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+
+
+			<ul class="side-nav" id="nav-mobile">
+				<li>
+					<a href="#about">About</a>
+				</li>
+
+
+				<li>
+					<a href="#portfolio">Portfolio</a>
+				</li>
+
+
+				<li>
+					<a href="#services">Services</a>
+				</li>
+
+
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+			<a class="button-collapse" data-activates="nav-mobile" href="#"><i class=
+			"material-icons">menu</i></a>
+		</div>
+	</nav>
+    </div>
+
+	<div class="parallax-container" id="index-banner">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<br>
+				<br>
+
+
+				<h1 class="header center light-blue-text text-accent-3" id="name">Chuck
+				Wongus</h1>
+
+
+				<div class="row center">
+					<h5 class="header col s12 light">Web Developer</h5>
+				</div>
+				<br>
+				<br>
+			</div>
+		</div>
+
+
+		<div class="parallax"><img src="img/background-2.jpg">
+		</div>
+	</div>
+
+
+	<div class="section white">
+		<a id="about" name="about">
+		<div class="row container">
+			<h2 class="header">About Chuck</h2>
+
+
+			<p class="grey-text text-darken-3 lighten-3">My name is Chuck Wongus. I am a
+			progressive political organizer. I have been working in social justice for
+			almost two years now, and I absolutely love giving back to the world.<br>
+			<br>
+			Living in a world were people are accepted for who they are is my dream in
+			life. I have been working ardently to accept people and be open minded in
+			life.<br>
+			<br>
+			I grew up in Chester, VA. Chester is a small suburb, or as the residents
+			like to call it "a village", outside of Richmond, VA.</p>
+		</div></a>
+	</div>
+
+
+	<div class="parallax-container" id="index-banner">
+		<div class="parallax"><img src="img/background-1.jpg">
+		</div>
+	</div>
+
+
+	<div class="section white">
+		<a id="portfolio" name="portfolio">
+		<div class="row container">
+			<h2 class="header">Chuck's Portfolio</h2>
+
+
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card small">
+						<div class="card-image waves-effect waves-block waves-light"><img class=
+						"activator" src="img/karma.png">
+						</div>
+
+
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Karma
+							Clone<i class="material-icons right">more_vert</i></span>
+
+							<p>
+							</p>
+							<a href="http://yesimchuck.github.io/KarmaClone/" target="_blank">Final
+							Product</a>
+
+							<p>
+							</p>
+						</div>
+
+
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Karma Clone<i class="material-icons right">close</i></span>
+
+							<p>Using pure HTML and CSS, I built a clone of the Karma Website. This
+							was build in January 2014.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col s12 m6">
+					<div class="card small">
+						<div class="card-image waves-effect waves-block waves-light"><img class=
+						"activator" src="img/anchorman.jpg">
+						</div>
+
+
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Anchorman Random Quote Generator<i class="material-icons right">more_vert</i></span>
+
+							<p>
+							</p>
+							<a href="http://codepen.io/ChuckWongus/full/adqGqM/" target="_blank">Final Product</a>
+
+							<p>
+							</p>
+						</div>
+
+
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Anchorman Random Quote Generator<i class="material-icons right">close</i></span>
+
+							<p>Using Bootstrap, JQuery, and Javascript, I created a Quote Generator using Anchorman Quotes </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div></a>
+	</div>
+
+
+	<div class="parallax-container" id="index-banner">
+		<div class="parallax"><img src="img/background-3.jpg">
+		</div>
+	</div>
+
+
+	<div class="section white">
+		<a id="services" name="services">
+		<div class="row container">
+			<h2 class="header">Services Offered</h2>
+
+
+			<p class="grey-text text-darken-3 lighten-3">Under Construction</p>
+		</div></a>
+	</div>
+
+
+	<footer class="page-footer light-blue accent-3">
+		<div class="footer-copyright">
+			<div class="container">
+				Made by <a class="brown-text text-lighten-3" href=
+				"mailto:charles.t.wongus@gmail.com">Chuck Wongus</a>
+			</div>
+		</div>
+	</footer>
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js">
+	</script> 
+	<script src="js/materialize.js">
+	</script> 
+	<script src="js/init.js">
+	</script>
+</body>
+</html>
